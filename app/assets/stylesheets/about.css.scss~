@@ -1,0 +1,24 @@
+// Place all the styles related to the about controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.highlight {
+background-color: #eaeff4;
+color: #000;
+}
+.about, .thumbnail{
+max-height: 400px;
+}
+.col-md-6, .thumbnail{
+margin-right: auto;
+margin-left: auto;
+}
+.thumbnail, img {
+max-width: 100%;
+height: auto;
+}
+img {
+border: 0;
+}
+.main h2 {
+margin: 0px 20px
+}
